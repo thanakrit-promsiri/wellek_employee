@@ -1,0 +1,272 @@
+/* ------------------------ CSS Header ------------------------ */
+.section1_wrapper {
+  text-align: center;
+  /* padding: 10px; */
+  width: 100%;
+}
+.section1_box {
+  /* background-color: gray; */
+  margin-top: 13px;
+  padding: 5px;
+}
+.section2_wrapper {
+  text-align: center;
+  /* padding: 10px; */
+  width: 100%;
+}
+.section2_box {
+  /* background-color: gray; */
+  margin-top: 13px;
+  padding: 5px;
+  text-align: center;
+}
+.section3_wrapper {
+  text-align: center;
+  /* padding: 10px; */
+  width: 100%;
+}
+.section3_box {
+  /* background-color: gray; */
+  margin: 10px;
+  padding: 5px;
+}
+label {
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------------------ CSS Profile Modal User ------------------------ */
+.avatar {
+  margin: 25px auto;
+}
+img.user {
+  height: 160px;
+  width: 160px;
+  background-color: #777;
+  box-shadow: 0 0 0 5px #777;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  will-change: transform;
+}
+img.user:hover {
+  cursor: pointer;
+  -webkit-animation: bounceOut 0.4s linear;
+          animation: bounceOut 0.4s linear;
+}
+@-webkit-keyframes bounceOut {
+  0% {
+    box-shadow: 0 0 0 4px #777;
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    box-shadow: 0 0 0 1px #777;
+    opacity: 1;
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+  50% {
+    box-shadow: 0 0 0 7px #777;
+    opacity: 1;
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+  75% {
+    box-shadow: 0 0 0 4px #777;
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    box-shadow: 0 0 0 5px #777;
+    opacity: 1;
+  }
+}
+
+@keyframes bounceOut {
+  0% {
+    box-shadow: 0 0 0 4px #777;
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    box-shadow: 0 0 0 1px #777;
+    opacity: 1;
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+  }
+  50% {
+    box-shadow: 0 0 0 7px #777;
+    opacity: 1;
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+  75% {
+    box-shadow: 0 0 0 4px #777;
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    box-shadow: 0 0 0 5px #777;
+    opacity: 1;
+  }
+}
+
+/* ------------------------ CSS Sidemenu ------------------------ */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+  border-radius: 7px;
+}
+.profile-usertitle {
+  text-align: center;
+  /* margin-top: 20px; */
+}
+.profile-usertitle-name {
+  color: #4A4A4A;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.profile-usermenu {
+  margin-top: 18px;
+}
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 430px;
+  border-radius: 7px;
+}
+
+/* integate font */
+/* thai */
+@font-face {
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    src: local('K2D Regular'), local('K2D-Regular'), url('../font/custom-font/J7aTnpF2V0EjZKUsrLc.woff2') format('woff2');
+    unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    src: local('K2D Regular'), local('K2D-Regular'), url('../font/custom-font/J7aTnpF2V0Ejf6UsrLc.woff2') format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    src: local('K2D Regular'), local('K2D-Regular'), url('../font/custom-font/J7aTnpF2V0EjfqUsrLc.woff2') format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 400;
+    src: local('K2D Regular'), local('K2D-Regular'), url('../font/custom-font/J7aTnpF2V0EjcKUs.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* ------------------------ Form Wizard ------------------------ */
+  .stepwizard-step p {
+    margin-top: 10px;
+  }
+  .stepwizard-row {
+    display: table-row;
+  }
+  .stepwizard {
+    margin: auto;
+    display: table;
+    width: 95%;
+    position: relative;
+  }
+  .stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+  }
+  .stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-order: 0;
+  }
+  .stepwizard-step {
+      display: table-cell;
+      text-align: center;
+      position: relative;
+  }
+  .btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+  }
+
+  /* ------------------------ Modal Reject ------------------------ */
+  .reject-wrapper {
+    margin: auto;
+    width: 50%;
+    padding-right: 16px;
+    padding-left: 10px;
+  }
+  .reject-box {
+    border: 1px solid #D5D5D5;
+    border-radius: 5px;
+    min-height: 80px;
+    padding: 8px;
+  }
+  .description-wrapper {
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 10px;
+  }
+  .description-box {
+    border: 1px solid #EEA5A5;
+    border-radius: 5px;
+    min-height: 80px;
+    padding: 8px;
+  }
